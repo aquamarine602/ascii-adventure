@@ -71,9 +71,18 @@ public class Ascii_adventure {
 		 *  			} else {
 		 *  				System.out.print("two a's"); 
 		 *  
+		 *  (player removes lamp)
+		 *  you grab the hanging lamp and rip it off the wall
+		 *  wires dangle from the ceiling from where it once was
+		 *  ++ lamp
 		 *  
+		 *  		(player takes wires without stool)
+		 *  		the wires are just barely too high for you to take
 		 * 
-		 * 
+		 * 			(player takes wires with stool)
+		 * 			you reach up and take the wires out of the ceiling
+		 * 			the ceiling crumbles as the wires are torn away, revealing
+		 * 			the night sky
 		 * 
 		 * 
 		 */
@@ -84,6 +93,7 @@ public class Ascii_adventure {
 		 * take
 		 * pick up
 		 * grab
+		 * remove
 		 * 
 		 * OPEN CONTAINER
 		 * open
@@ -93,14 +103,17 @@ public class Ascii_adventure {
 		 * walk
 		 * 
 		 * look
+		 * combine
 		 * 
 		 * ATTACK
 		 * break
 		 * attack
 		 * hit
 		 * kill
+		 * destroy
 		 * 
 		 * if verb unknown: error unknown verb
+		 * 
 		 * 
 		 * NOUNS
 		 * box
@@ -108,8 +121,9 @@ public class Ascii_adventure {
 		 * bulb
 		 * hammer
 		 * tile shard
-		 * gun
+		 * stool
 		 * roll of paper/paper
+		 * wires
 		 * 
 		 * with (two things)
 		 */
