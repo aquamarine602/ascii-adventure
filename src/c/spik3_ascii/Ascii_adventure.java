@@ -126,7 +126,18 @@ public class Ascii_adventure {
 		 * wires
 		 * 
 		 * with (two things)
+		 * 
+		 *   _____
+		 *  |_/_\_|
+		 *   || ||
+		 *   || ||
+		 *   ||=||
+		 *   || || 
+		 *   
+		 *   
 		 */
+		
+		
 
 	}
 
