@@ -120,7 +120,7 @@ public class Version_2 {
 		boolean valid = false;		// noun's validity
 		
 		// if given noun is part of accepted nouns
-		if (noun.equals("box ") || noun.equals("lamp ") || noun.equals("bulb ") || noun.equals("stool ") || noun.equals("paper ") || noun.equals("hammer ")) {
+		if (noun.equals("box ") || noun.equals("lamp ") || noun.equals("bulb ") || noun.equals("stool ") || noun.equals("paper ") || noun.equals("hammer ") || noun.equals("north ") || noun.equals("east ") || noun.equals("south ") || noun.equals("west ")) {
 			valid = true;
 		} else {
 			out.println("\nI don't know the noun '" + noun + "'.");
